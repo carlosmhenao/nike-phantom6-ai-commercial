@@ -1,94 +1,95 @@
+<div align="center">
+
+![Nike Phantom 6 — AI Commercial Case Study](./assets/banner.png)
+
 # Nike Phantom 6 Elite — AI Commercial Case Study
 
-> A 60-second commercial produced entirely with AI tools by a single operator. 
-> Zero traditional production budget. Built using systematic methodology adapted from data analytics workflows.
+#### A 60-second cinematic commercial produced entirely with AI tools by a single operator. Zero traditional production budget. Built using systematic methodology adapted from data analytics workflows.
 
-[![Watch the full commercial](./assets/thumbnail.png)](https://youtu.be/LIjcOK5gR1o?feature=shared)
+[![Watch the Video](https://img.shields.io/badge/▶_Watch_the_Commercial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/LIjcOK5gR1o?feature=shared)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos_Moreno-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/carlosmorenohenao)
+[![Portfolio](https://img.shields.io/badge/Portfolio-carlosmoreno.dev-000000?style=for-the-badge&logo=netlify&logoColor=white)](https://carlosmoreno-portafolio.netlify.app)
 
-**▶ [Watch the full 60-second commercial here]([YOUR_YOUTUBE_LINK])**
+<br>
+
+![Status](https://img.shields.io/badge/status-completed-success?style=flat-square)
+![Project Type](https://img.shields.io/badge/type-spec_commercial-blue?style=flat-square)
+![Duration](https://img.shields.io/badge/duration-60_seconds-lightgrey?style=flat-square)
+![Production](https://img.shields.io/badge/production-AI_native-purple?style=flat-square)
+![Tools](https://img.shields.io/badge/tools-5_AI_platforms-orange?style=flat-square)
+
+</div>
 
 ---
 
-## Project Summary
+## Table of Contents
 
-This project documents the production of a fully AI-generated commercial for Nike Phantom 6 Elite football boots, executed by a single operator over multiple iteration cycles. The objective was to test whether the analytical mindset of a data analyst — defining variables, iterating systematically, validating against measurable standards — could produce broadcast-quality commercial output without traditional production resources.
+- [Overview](#overview)
+- [The Final Commercial](#the-final-commercial)
+- [Technical Stack](#technical-stack)
+- [Methodology](#methodology)
+- [Production Pipeline](#production-pipeline)
+- [Key Technical Challenges Solved](#key-technical-challenges-solved)
+- [What This Project Demonstrates](#what-this-project-demonstrates)
+- [Performance Metrics](#performance-metrics)
+- [Author](#author)
+- [License & Disclaimer](#license--disclaimer)
 
-**Result:** A 60-second cinematic commercial with consistent brand identity, professional color grading, layered sound design, and continuous narrative across 11 distinct AI-generated clips.
+---
+
+## Overview
+
+This project documents the production of a fully AI-generated commercial for the **Nike Phantom 6 Elite** football boot, executed by a single operator over multiple iteration cycles. The objective was to test whether the analytical mindset of a data analyst — defining variables, iterating systematically, validating against measurable standards — could produce broadcast-quality commercial output without traditional production resources.
+
+> **Hypothesis:** The bottleneck in modern advertising is not access to creative production. It is the ability to operate AI tools at a professional level while applying systems thinking to creative output.
+
+> **Result:** A 60-second cinematic commercial with consistent brand identity, professional color grading, layered sound design, and continuous narrative across 11 distinct AI-generated clips — produced for a total cost of $0 in traditional production resources.
+
+---
+
+## The Final Commercial
+
+<div align="center">
+
+[![Watch the Full Commercial](./assets/thumbnail.png)](https://youtube.com/watch?v=[YOUR_VIDEO_ID])
+
+**▶ [Watch the full 60-second commercial on YouTube](https://youtube.com/watch?v=[YOUR_VIDEO_ID])**
+
+</div>
 
 ---
 
 ## Technical Stack
 
-| Tool | Purpose |
-|------|---------|
-| **Kling AI 3.0** | Video generation (11 clips iterated) |
-| **Nano Banana / Gemini 2.5 Flash Image** | Frame generation and storyboarding |
-| **ElevenLabs Sound Effects** | Custom sound design generation |
-| **DaVinci Resolve 19** | Color grading, sound mixing, finishing |
-| **Custom prompt engineering** | Cross-scene consistency and AI bias mitigation |
+| Tool | Category | Purpose |
+|------|----------|---------|
+| **Kling AI 3.0** | Video Generation | Core video production — 11 clips iterated |
+| **Nano Banana / Gemini 2.5 Flash Image** | Image Generation | Frame generation, storyboarding, transition assets |
+| **ElevenLabs Sound Effects** | Audio Generation | Custom sound design — footsteps, ambient layers |
+| **DaVinci Resolve 19** | Post-Production | Color grading, sound mixing, finishing, export |
+| **Custom Prompt Engineering** | Methodology | Cross-scene consistency, AI bias mitigation |
 
 ---
 
 ## Methodology
 
-The production followed a structured iteration cycle inspired by analytics workflows:
+The production followed a structured iteration cycle inspired by analytics workflows. Each phase mirrors the discipline applied to dataset cleaning and dashboard design:
 
-1. **Brief decomposition** — Translating creative direction into measurable specifications (frame composition, color values, audio layers)
-2. **Systematic generation** — Producing each clip independently with locked variables (character consistency, wardrobe, lighting)
-3. **Validation against scopes** — Using DaVinci waveform and vectorscope readings to ensure exposure and color continuity
-4. **Iteration on failures** — Identifying AI model biases and pivoting strategy (e.g., splitting scenes when the model overrode prompt instructions)
-5. **Layered finishing** — Applying multi-track sound design, color grade, and tempo adjustments in post-production
+### Phase 1 — Brief Decomposition
+Translating creative direction into measurable specifications. Each clip received a locked specification document covering frame composition, color values, audio layers, character consistency, and atmospheric details.
 
----
+### Phase 2 — Systematic Generation
+Producing each clip independently with locked variables. Character description, wardrobe, lighting setup, and color grade specifications repeated across all 11 prompts to maintain identity continuity.
 
-## Key Technical Challenges Solved
+### Phase 3 — Validation Against Scopes
+Using DaVinci Resolve waveform and vectorscope readings to ensure exposure and color continuity. Every clip validated against a single reference standard rather than subjective visual judgment.
 
-### Challenge 1 — Character Consistency Across 11 Clips
-AI video models reinterpret character features between generations. Solution: built a locked character description with reference photo binding, repeated identity specifications across all prompts, validated facial features frame-by-frame.
+### Phase 4 — Iteration on Failures
+Identifying AI model biases and pivoting strategy. When a model failed silently or overrode prompt instructions, the production approach was adapted rather than continuing to iterate the same failed prompt.
 
-### Challenge 2 — Color Continuity Between AI-Generated Clips
-Each AI generation outputs slightly different exposure values that look correct in isolation but break continuity when sequenced. Solution: applied node-based color correction in DaVinci Resolve, reading waveform scopes to balance exposure across all clips against a single reference.
-
-### Challenge 3 — Model Bias on Object-Subject Interaction
-The video model consistently placed Nike boots on the character's feet despite explicit negative prompts (the model associated "person + boots in scene" with "person wearing boots"). Solution: split the problematic scene into two separate clips — one with character without boots in frame, one with boots without character body in frame — joined invisibly in post-production with a match cut.
-
-### Challenge 4 — Sound Design Without Native Audio
-Most AI-generated audio was unusable for premium commercial output. Solution: muted native audio across all clips and rebuilt the sound design from scratch using five layers — sub-bass spine, ambient textures, diegetic sound effects, strategic silences, and a single moment of expansion at the climax.
+### Phase 5 — Layered Finishing
+Applying multi-track sound design, color grading nodes, and tempo adjustments in post-production. Five distinct audio layers + six color grade nodes per clip + manual cut point adjustments per transition.
 
 ---
 
-## What This Project Demonstrates
-
-- **Systems thinking applied to creative work:** Treating creative briefs as measurable specifications rather than abstract inspiration
-- **Tool-agnostic methodology:** The ability to operate multiple AI tools as components of a unified workflow
-- **Failure recognition and pivot strategy:** Identifying when AI models are failing silently and adapting the production approach
-- **Quality control through measurement:** Using technical scopes and metrics rather than subjective judgment alone
-- **Multi-disciplinary execution:** Merging the analytical rigor of data work with the creative output of brand commercial production
-
----
-
-## About the Author
-
-**Carlos Moreno Henao**  
-Data Analyst & Marketing Strategist | Business Intelligence & AI Automation  
-Bilingual (English/Spanish) | NCAA D-II Student-Athlete | Quincy University
-
-I bridge analytical rigor and creative execution. My background combines a Business Management & Marketing degree with technical expertise in SQL, Tableau, Python, and R — alongside production experience in sports media and digital content strategy.
-
-This project represents my belief that the most valuable professionals in the next decade will be those who can apply systems thinking to creative output, not those who specialize in only one side of the equation.
-
-**Currently OPT-eligible and based in Kansas City, MO. Open to data analyst and AI-driven marketing roles.**
-
----
-
-## Connect
-
-- **LinkedIn:** [linkedin.com/in/carlosmorenohenao](https://linkedin.com/in/carlosmorenohenao)
-- **Portfolio:** [carlosmoreno-portafolio.netlify.app](https://carlosmoreno-portafolio.netlify.app)
-- **Email:** carlosmhen@gmail.com
-
----
-
-## License
-
-This project is shared for portfolio and educational purposes. The Nike brand, Phantom 6 Elite product, and Nike trademarks shown in the commercial are property of Nike, Inc. This is a non-commercial speculative project (spec ad) and is not affiliated with, sponsored by, or endorsed by Nike, Inc.
+## Production Pipeline
