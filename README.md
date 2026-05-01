@@ -1,6 +1,6 @@
 <div align="center">
 
-![Nike Phantom 6 — AI Commercial Case Study](./assets/banner.png)
+![Nike Phantom 6 — AI Commercial Case Study](./assets/banner.jpg)
 
 # Nike Phantom 6 Elite — AI Commercial Case Study
 
